@@ -5,11 +5,13 @@ import { ErrorPage } from "./error-page";
 
 import "./index.css";
 import { Contact, loader as contactLoader } from "./routes/contact";
+
 import {
   EditContact,
   loader as editLoader,
   action as editAction,
 } from "./routes/edit";
+
 import {
   Root,
   loader as rootLoader,
