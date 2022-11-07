@@ -2,12 +2,12 @@ export const Root = () => {
   return (
     <>
       <div id="sidebar">
-        <h1>Contacts</h1>
+        <h1>React Router Contacts</h1>
         <div>
           <form id="search-form" role="search">
             <input
               id="q"
-              aria-label="Search Contacts"
+              aria-label="Search contacts"
               placeholder="Search"
               type="search"
               name="q"
@@ -19,16 +19,16 @@ export const Root = () => {
             <button type="submit">New</button>
           </form>
         </div>
-        <na>
+        <nav>
           <ul>
             <li>
               <a href={`contacts/1`}>Your Name</a>
             </li>
             <li>
-              <a href={`contacts/2`}> Your Friend </a>
+              <a href={`contacts/2`}>Your Friend</a>
             </li>
           </ul>
-        </na>
+        </nav>
       </div>
       <div id="detail"></div>
     </>
